@@ -2612,10 +2612,24 @@ ol li {
 	padding-left: 0.25em;
 }
 
+
+.appList {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.appList a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 1em;
+}
+
 .appImage {
-	width: 200px;
-	height: 200px;
-	margin: 1.25em 1.25em;
+	width: 5em;
+	height: 5em;
+	margin: 1em 1.25em;
 	border-radius: 20%;
 }
 
